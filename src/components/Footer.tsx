@@ -7,7 +7,7 @@ function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold text-white mb-4">Serenity</h3>
+            <h3 className="text-xl font-bold text-white mb-4">MediMeet</h3>
             <p className="mb-4">Your trusted healthcare partner. Find the best doctors and medical services near you.</p>
             <div className="flex space-x-4">
               <SocialIcon icon={<Facebook size={20} />} />
@@ -32,23 +32,23 @@ function Footer() {
             <h4 className="text-white font-semibold mb-4">For Doctors</h4>
             <FooterLinks links={[
               'Join as a Doctor',
-              'Serenity Profile',
-              'Serenity Reach',
-              'Serenity Pro'
+              'MediMeet Profile',
+              'MediMeet Reach',
+              'MediMeet Pro'
             ]} />
           </div>
           
           <div>
             <h4 className="text-white font-semibold mb-4">Contact Us</h4>
-            <p className="mb-2">Email: support@serenity.com</p>
+            <p className="mb-2">Email: friend@sochpekharoch.life</p>
             <p className="mb-2">Phone: 1800-123-4567</p>
-            <p>Address: 123 Healthcare Street, Medical District, City - 12345</p>
+            <p>Address: F. N. 301, Surya Laxmi Villa APPT. Ramjaipal Path, Baily Road, Danapur, Patna - 801503</p>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-sm text-gray-400">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p>© 2024 Serenity. All rights reserved.</p>
+            <p>© 2024 MediMeet. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-white">Privacy Policy</a>
               <a href="#" className="hover:text-white">Terms of Service</a>
