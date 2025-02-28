@@ -17,6 +17,26 @@
     Access-Control-Allow-Origin = "*"
 
 [[headers]]
+  for = "/*.js"
+    [headers.values]
+    Content-Type = "text/javascript"
+
+[[headers]]
+  for = "/*.css"
+    [headers.values]
+    Content-Type = "text/css"
+
+[[headers]]
+  for = "/*.html"
+    [headers.values]
+    Content-Type = "text/html"
+
+[[headers]]
+  for = "/assets/*"
+    [headers.values]
+    Content-Type = "application/javascript"
+
+[[headers]]
   for = "/favicon.ico"
     [headers.values]
     Content-Type = "image/x-icon"
